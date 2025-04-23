@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 - 天竺集团</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="http://sv6jy3ep9.hn-bkt.clouddn.com/logo.jpg" alt="天竺集团">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">关于我们</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="brand.html">品牌调性</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">企业文化</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">联系我们</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 页面标题 -->
+  <section class="hero-section" style="background-image: url('http://sv6jy3ep9.hn-bkt.clouddn.com/jieshao4.jpg');">
+    <div class="container hero-content">
+      <h1 class="display-4 fw-bold mb-3">联系我们</h1>
+      <p class="lead">期待与您的沟通</p>
+    </div>
+  </section>
+
+  <!-- 联系信息 -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="section-title text-start">联系方式</h2>
+          <div class="d-flex mb-4">
+            <div class="me-3">
+              <i class="fas fa-map-marker-alt text-primary fa-2x"></i>
+            </div>
+            <div>
+              <h5>公司地址</h5>
+              <p>深圳市南山区科技园</p>
+            </div>
+          </div>
+          <div class="d-flex mb-4">
+            <div class="me-3">
+              <i class="fas fa-phone text-primary fa-2x"></i>
+            </div>
+            <div>
+              <h5>联系电话</h5>
+              <p>400-123-4567</p>
+            </div>
+          </div>
+          <div class="d-flex mb-4">
+            <div class="me-3">
+              <i class="fas fa-envelope text-primary fa-2x"></i>
+            </div>
+            <div>
+              <h5>电子邮箱</h5>
+              <p>contact@tianzhugroup.com</p>
+            </div>
+          </div>
+          <div class="d-flex mb-4">
+            <div class="me-3">
+              <i class="fas fa-clock text-primary fa-2x"></i>
+            </div>
+            <div>
+              <h5>工作时间</h5>
+              <p>周一至周五: 9:00 - 18:00<br>周六: 10:00 - 16:00<br>周日: 休息</p>
+            </div>
+          </div>
+          <div class="mt-4">
+            <h5 class="mb-3">关注我们的社交媒体</h5>
+            <div class="social-icons">
+              <a href="#" class="me-2"><i class="fab fa-weixin"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-weibo"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-tiktok"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title text-start">留言咨询</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">您的姓名</label>
+              <input type="text" class="form-control" id="name" placeholder="请输入您的姓名">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">电子邮箱</label>
+              <input type="email" class="form-control" id="email" placeholder="请输入您的电子邮箱">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">联系电话</label>
+              <input type="tel" class="form-control" id="phone" placeholder="请输入您的联系电话">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">咨询主题</label>
+              <select class="form-select" id="subject">
+                <option selected>请选择咨询主题</option>
+                <option value="1">产品咨询</option>
+                <option value="2">合作洽谈</option>
+                <option value="3">加盟咨询</option>
+                <option value="4">其他问题</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">留言内容</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="请输入您的留言内容"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">提交留言</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 地图 -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">我们的位置</h2>
+      <div class="ratio ratio-21x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9259798932!2d114.05793707596853!3d22.54333997939891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f5c785a38761%3A0x6ef5a27389b881e0!2z5Y2X5bGx5Yy65rSl5a2m5Yy6!5e0!3m2!1szh-CN!2scn!4v1682345678901!5m2!1szh-CN!2scn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title">常见问题</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  如何成为天竺集团的合作伙伴？
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  您可以通过我们的官方网站联系我们，或者直接拨打我们的客服热线400-123-4567，我们的专业团队会为您提供详细的合作方案和流程。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  天竺集团的产品有哪些特点？
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  天竺集团的产品以东方美学为核心，融合现代科技与传统文化，注重产品的安全性和有效性，所有产品均经过严格的质量控制，确保为客户提供最优质的美容体验。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  如何参加天竺集团的培训课程？
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  您可以关注我们的官方网站和社交媒体账号，我们会定期发布培训课程的信息。您也可以直接联系我们的客服，了解最新的培训课程安排。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  天竺集团的产品在哪里可以购买？
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  您可以通过我们的官方网站、官方旗舰店或授权经销商购买天竺集团的产品。为了保证您购买到正品，建议您通过官方渠道购买。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-logo">
+            <img src="http://sv6jy3ep9.hn-bkt.clouddn.com/logo.jpg" alt="天竺集团">
+          </div>
+          <p>以美之名 传承优雅</p>
+          <p>LN THE NAME OF BEAUTY INHERIT ELEGANCE</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 class="mb-4">联系我们</h5>
+          <p><i class="fas fa-map-marker-alt me-2"></i> 深圳市</p>
+          <p><i class="fas fa-phone me-2"></i> 400-123-4567</p>
+          <p><i class="fas fa-envelope me-2"></i> contact@tianzhugroup.com</p>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="mb-4">关注我们</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-weixin"></i></a>
+            <a href="#"><i class="fab fa-weibo"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center">
+        <p>&copy; 2023 深圳市天竺美容（集团）有限公司 版权所有</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
