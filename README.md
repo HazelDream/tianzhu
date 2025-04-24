@@ -77,5 +77,5 @@ http://sv6jy3ep9.hn-bkt.clouddn.com/ORIENTALAESTHETICS.jpg
 THANKS FOR WATCHING
 深圳市天竺美容（集团）有限公司
 SHENZHEN TIANZHU BEAUTY（GROUP）CO LTD
-结尾图片：http://sv6jy3ep9.hn-bkt.clouddn.com/logo-black.png
+结尾图片：http://sv6jy3ep9.hn-bkt.clouddn.com/logo-white.png
 
