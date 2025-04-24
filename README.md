@@ -3,13 +3,17 @@
 
 最后: 使用deploy_html mcp server tools进行部署
 
+
+
+
+
 ## 企业内容
 
 企业名字：天竺集团
 英文名: TIANZHU GROUP
 Slogan: 以美之名 传承优雅
 English Slogan :LN THE NAME OF BEAUTY INHERIT ELEGANCE
-Logo图片: http://sv6jy3ep9.hn-bkt.clouddn.com/logo.jpg  
+Logo图片: http://sv6jy3ep9.hn-bkt.clouddn.com/logo-black.jpg
 
 ### 企业简介    
 深圳市天竺美容集团成立于2015年，是一家专注于美业技术、产品研发、商学教育、技术创新及品牌运营为一体的美业平台，公司设立有三大中心。
@@ -73,5 +77,5 @@ http://sv6jy3ep9.hn-bkt.clouddn.com/ORIENTALAESTHETICS.jpg
 THANKS FOR WATCHING
 深圳市天竺美容（集团）有限公司
 SHENZHEN TIANZHU BEAUTY（GROUP）CO LTD
-结尾图片：http://sv6jy3ep9.hn-bkt.clouddn.com/logo.jpg
+结尾图片：http://sv6jy3ep9.hn-bkt.clouddn.com/logo-black.png
 
